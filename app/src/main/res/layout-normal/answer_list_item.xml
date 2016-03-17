@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_btn_operand"
+    android:layout_margin="@dimen/margin_btn_normal" >
+    
+    
+
+    <TextView
+        android:id="@+id/txt_expr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_btn_normal"
+        android:text="Expression : "
+        android:background="@color/dark_txt_digit"
+        android:layout_margin="1dp"
+        android:textSize="@dimen/txt_size_normal">
+    </TextView>
+    
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0" 
+        android:padding="@dimen/padding_btn_normal">
+        
+         <TextView
+             android:id="@+id/txt_answer"
+             android:layout_width="0dp"
+        	 android:layout_height="wrap_content"
+        	 android:layout_gravity="center_vertical"        	 
+        	 android:gravity="center_vertical"
+        	 android:layout_weight="0.80" 
+        	 android:textStyle="bold"
+        	 android:text="answer"
+        	 android:textSize="@dimen/txt_size_normal"/>
+
+        <ImageView
+            android:id="@+id/btn_copy"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_weight="0.1"
+            style="@style/style_btn_operator_normal"
+            android:padding="@dimen/padding_btn_normal"
+            android:src="@drawable/ic_copy" />
+        
+        <ImageView
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_weight="0.1"
+            style="@style/style_btn_delete_normal"
+            android:textSize="@dimen/txt_size_normal"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_delete" />
+         
+    </LinearLayout>
+
+</LinearLayout>

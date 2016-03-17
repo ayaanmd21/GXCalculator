@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/big_margin_xlarge" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/margin_btn_xlarge"
+            android:src="@drawable/about_logo" />
+
+        <TextView
+            android:id="@+id/txt_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_btn_xlarge"
+            android:paddingTop="25dp"
+            android:text="@string/app_name"
+            android:textSize="@dimen/btn_txt_size_xlarge"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_app_version" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/big_margin_xlarge"
+        android:text="@string/app_version"
+        android:textSize="@dimen/txt_size_xlarge" 
+        android:textColor="@color/bg_digit"/>
+    
+    <TextView
+        android:id="@+id/txt_design_develop" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_btn_xlarge"
+        android:text="@string/design_and_developed"
+        android:textSize="@dimen/txt_size_xlarge" 
+        android:textColor="@color/bg_digit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/big_margin_xlarge"
+            android:src="@drawable/grexoft_logo" />
+
+        <TextView
+            android:id="@+id/txt_developer_name_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_name_first"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_txt_size_xlarge" />
+
+        <TextView
+            android:id="@+id/txt_developer_name_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_name_last"
+            android:textSize="@dimen/btn_txt_size_xlarge"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_developer_address" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_btn_xlarge"
+        android:text="@string/developer_address"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/txt_size_xlarge"
+        android:textColor="@color/bg_digit"
+         />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/big_margin_xlarge"
+        android:layout_marginLeft="@dimen/big_margin_xlarge">
+        
+        <ImageView 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_web"/>
+        
+        <TextView 
+            android:id="@+id/txt_developer_web_address" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_btn_xlarge"
+            android:text="@string/developer_web_address"
+            android:textColor="@color/bg_digit"
+            android:textSize="@dimen/txt_size_xlarge"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/big_margin_xlarge"
+        android:layout_marginLeft="@dimen/big_margin_xlarge">
+        
+        <ImageView 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_fb"/>
+        
+        <TextView 
+            android:id="@+id/txt_developer_fb_address" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_btn_xlarge"
+            android:text="@string/developer_fb_address"
+            android:textColor="@color/bg_digit"
+            android:textSize="@dimen/txt_size_xlarge"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/big_margin_xlarge"
+        android:layout_marginLeft="@dimen/big_margin_xlarge">
+        
+        <ImageView 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_twitter"/>
+        
+        <TextView 
+            android:id="@+id/txt_developer_twitter_address" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_btn_xlarge"
+            android:text="@string/developer_twitter_address"
+            android:textColor="@color/bg_digit"
+            android:textSize="@dimen/txt_size_xlarge"/>
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
+
+

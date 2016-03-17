@@ -1,0 +1,125 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="calculatorBackground" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:background">@color/main_bg</item>
+    </style>
+
+    
+    <style name="style_btn_digit_normal">
+        <item name="android:background">@drawable/bg_btn_operand</item>
+        <item name="android:textColor">@color/color_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_normal</item>
+    </style>
+    <style name="style_btn_digit_small">
+        <item name="android:background">@drawable/bg_btn_operand</item>
+        <item name="android:textColor">@color/color_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_small</item>
+    </style>
+    <style name="style_btn_digit_large">
+        <item name="android:background">@drawable/bg_btn_operand</item>
+        <item name="android:textColor">@color/color_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_large</item>
+    </style>
+    <style name="style_btn_digit_xlarge">
+        <item name="android:background">@drawable/bg_btn_operand</item>
+        <item name="android:textColor">@color/color_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_xlarge</item>
+    </style>
+     
+    
+    <style name="style_btn_operator_large">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:textColor">@color/dark_txt_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_large</item>
+    </style>
+    <style name="style_btn_operator_xlarge">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:textColor">@color/dark_txt_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_xlarge</item>
+    </style>
+    <style name="style_btn_operator_normal">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:textColor">@color/dark_txt_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_normal</item>
+    </style>
+    <style name="style_btn_operator_small">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:textColor">@color/dark_txt_digit</item>
+        <item name="android:textSize">@dimen/btn_txt_size_small</item>
+    </style>
+     <style name="style_btn_delete_normal">
+        <item name="android:background">@drawable/bg_delete_button</item>
+        <item name="android:padding">@dimen/padding_btn_normal</item>
+    </style>
+    
+     <style name="style_btn_paste_normal">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:padding">@dimen/padding_btn_normal</item>
+    </style>
+     
+    <style name="style_btn_save_normal">
+        <item name="android:background">@drawable/bg_save_button</item>
+        <item name="android:padding">@dimen/padding_btn_normal</item>
+    </style>
+    
+    <style name="style_btn_paste_large">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:padding">@dimen/padding_btn_large</item>
+    </style>
+    
+    <style name="style_btn_delete_large">
+        <item name="android:background">@drawable/bg_delete_button</item>
+        <item name="android:padding">@dimen/padding_btn_large</item>
+    </style>
+    <style name="style_btn_save_large">
+        <item name="android:background">@drawable/bg_save_button</item>
+        <item name="android:padding">@dimen/padding_btn_large</item>
+    </style>
+    
+    <style name="style_btn_paste_small">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:padding">@dimen/padding_btn_small</item>
+    </style>
+    
+    <style name="style_btn_paste_xlarge">
+        <item name="android:background">@drawable/bg_btn_operator</item>
+        <item name="android:padding">@dimen/padding_btn_xlarge</item>
+    </style>
+    
+    <style name="style_btn_delete_small">
+        <item name="android:background">@drawable/bg_delete_button</item>
+        <item name="android:padding">@dimen/padding_btn_small</item>
+    </style>
+    <style name="style_btn_save_small">
+        <item name="android:background">@drawable/bg_save_button</item>
+        <item name="android:padding">@dimen/padding_btn_small</item>
+    </style>
+    
+    <style name="style_btn_delete_xlarge">
+        <item name="android:background">@drawable/bg_delete_button</item>
+        <item name="android:padding">@dimen/padding_btn_xlarge</item>
+    </style>
+    <style name="style_btn_save_xlarge">
+        <item name="android:background">@drawable/bg_save_button</item>
+        <item name="android:padding">@dimen/padding_btn_xlarge</item>
+    </style>
+    
+
+</resources>

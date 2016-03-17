@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="app_name">GX Calculator</string>
+    <string name="developer_name_first">Grexoft</string>
+    <string name="developer_name_last">Developers</string>
+    <string name="developer_address">New Delhi, India</string>
+    <string name="developer_web_address">www.grexoft.com</string>
+    <string name="developer_fb_address">www.facebook.com/grexoft</string>
+    <string name="developer_twitter_address">www.twitter.com/grex_dev</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="point">.</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="multi">×</string>
+    <string name="divide">÷</string>
+    <string name="del">←</string>
+    <string name="clear">AC</string>
+    <string name="equal">=</string>
+    <string name="power">^</string>
+    <string name="percentage">%</string>
+    <string name="square">^2</string>
+    <string name="leftparenthes">(</string>
+    <string name="rightparenthes">)</string>
+    <string name="squareroot">√</string>
+    <string name="exponent">E</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Calculator</item>
+        <item>Saved Answers</item>
+        <item>Help</item>
+        <item>About</item>
+        <item>Rate Us</item>
+        <item>Exit</item>
+        
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_calci</item>
+        <item>@drawable/icon_save</item>
+        <item>@drawable/icon_help</item>
+        <item>@drawable/icon_about</item>
+        <item>@drawable/icon_rate</item>
+        <item>@drawable/icon_exit</item>
+    </array>
+
+    <string name="action_settings">Settings</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    
+    <string name="helppower">denotes “caret”. It is used as the exponentiation operator. e.g., 2 ^ 3 = 2 x 2 x 2 = 8.</string>
+	<string name="helproot">denotes “root”. It will perform the square root function. For example, √4 means square root of 4 i.e., 2.</string>
+	<string name="helpexponent">denotes “exponent”. It means \'multipied by ten to the power of\'. For example, 3E7 means 3 x (10^7) which is 30,000,000.</string>  
+	<string name="helppercentage" >denotes “percentage”.
+	     It is the symbol used to indicate a percentage, a number or ratio as a fraction of 100.
+	      </string>   
+	<string name="helpdivide">denotes “division”. It is used to represent the mathematical operation of division. The number written before the sign is the one to be divided and the number written after the sign is the one which divides.</string>    
+	<string name="helpmulti">denotes “multiplication”. It is used to represent the mathematical operation of multiplication.</string>    
+	<string name="helpadd">denotes “addition”. It is used to represent the mathematical operation of addition.</string>
+    <string name="helpsubtract">denotes “subtraction”. It is used to represent the mathematical operation of subtraction. The number which is written after the sign is the one which is to be subtracted and the one which is written before the sign is the one from which it has to be subtracted.</string>   
+	<string name="helpequal">denotes “is equal to”. It is used to represent the mathematical operation of equality.</string>
+	<string name="helpstartbracket">denotes “start bracket”. It is used to start a bracket. The default operator between start bracket and the number preceding it is ×. </string>
+	<string name="helpendbracket">denotes “end bracket”. It is used to start a bracket. The default operator between end bracket and the number succeeding it is ×.</string>
+	<string name="helpdelete">denotes “clear”. It will clear the calculation screen and you can start a new calculation.</string>
+	<string name="helpsave">denotes “save”. It will save the calculation for further reference. Not only the answer, but also the full expression.</string>
+	<string name="helpbackspace">denotes “backspace”. It deletes the character at the current position and moves the display cursor one position backwards.</string>
+	<string name="helppaste">denotes "paste". To paste clipboard items on the display.</string>
+	<string name="helpcopy">denotes "Copy". It copies the task to the clipboard to paste it anywhere.</string>
+	
+	<string name="aboutus1">Founded in 2015 and based in New Delhi, India, Grexoft Developers is a place for developing simple and easy-to-use Mobile apps. Our products are designed to target daily needs of a common man.</string>
+	<string name="aboutus2">Grexoft Developers was formed by enthusiastic, knowledgeable and hard-working experienced professionals with the objective to develop products of daily-use and back them with world-class support.</string>
+	
+	
+	<string name="design_and_developed">Designed and Developed by</string>
+	
+	<string name="app_version">Version 1.1</string>
+
+</resources>
