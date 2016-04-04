@@ -56,7 +56,7 @@ import support.NavDrawerItem;
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_main);
-		AdBuddiz.setPublisherKey("af95612a-d42f-4793-8593-f77ed31ba109");
+		AdBuddiz.setPublisherKey("8ab09792-d37d-4cff-bedd-66414deb2cc1");
 		AdBuddiz.cacheAds(this);
 		AdBuddiz.RewardedVideo.fetch(this);
 		mLinearLayout = (LinearLayout) findViewById(R.id.linearout);
